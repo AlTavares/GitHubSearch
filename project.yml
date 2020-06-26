@@ -1,0 +1,43 @@
+name: GitHubSearch
+options:
+  bundleIdPrefix: com.tavares
+packages:
+  SFSafeSymbols:
+    url: https://github.com/piknotech/SFSafeSymbols.git
+    from: 1.0.0
+  Logging:
+    url: https://github.com/apple/swift-log.git
+    from: 1.0.0
+  Quick:
+    url: https://github.com/Quick/quick
+    from: 3.0.0
+  Nimble:
+    url: https://github.com/Quick/Nimble
+    from: 8.1.1
+  SnapshotTesting:
+    url: https://github.com/pointfreeco/swift-snapshot-testing.git
+    from: 1.8.1
+targets:
+  GitHubSearch:
+    type: application
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources: Sources/GitHubSearch
+    dependencies:
+      - package: SFSafeSymbols
+      - package: Logging
+    scheme:
+      testTargets:
+        - GitHubSearchTests
+  GitHubSearchTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: Tests/GitHubSearchTests
+    dependencies:
+      - target: GitHubSearch
+      - package: Quick
+      - package: Nimble
+      - package: SnapshotTesting
+    scheme:
+      testTargets:
+        - GitHubSearchTests
