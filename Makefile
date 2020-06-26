@@ -1,5 +1,5 @@
 appName := $(shell basename $(shell pwd))
-quicktype := quicktype --no-initializers --protocol equatable -l swift --swift-5-support
+quicktype := quicktype --no-initializers --protocol equatable -l swift --swift-5-support --no-enums --multi-file-output  --type-prefix Response
 
 .PHONY: install
 install:
@@ -8,7 +8,8 @@ install:
 
 .PHONY: bootstrap
 bootstrap:
-	# $(eval path = Sources/$(appName)/Config)
-	# $(quicktype) $(path)/config.json -o $(path)/Config.swift
+	$(eval path = Sources/$(appName)/Models/Generated)
+	rm $(path)/* || true
+	$(quicktype) --src-urls quicktype-urls.json -o $(path)/Models.swift
 	xcodegen
 	open $(appName).xcodeproj
