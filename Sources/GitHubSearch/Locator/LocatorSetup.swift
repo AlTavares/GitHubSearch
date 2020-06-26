@@ -12,6 +12,10 @@ extension Locator {
         logger.debug("Setting up dependencies")
 
         Locator.register(URLSession.shared)
+        Locator.register(HTTPClient())
+
+        Locator.register(ImageCache())
+        Locator.register(RequestCache())
 
         return {}
     }()
