@@ -26,7 +26,7 @@ extension Request {
 
     func asURLRequest() -> URLRequest? {
         guard var components = URLComponents(string: host) else { return nil }
-        components.path.append(path)
+        components.path.append(path: path)
         components.queryItems = (components.queryItems ?? []) + queryItems
         guard let url = components.url else { return nil }
         var request = URLRequest(url: url)
