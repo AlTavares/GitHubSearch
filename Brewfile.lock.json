@@ -2,39 +2,52 @@
   "entries": {
     "brew": {
       "xcodegen": {
-        "version": "2.15.1",
+        "version": "2.16.0",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/xcodegen-2.15.1.catalina.bottle.tar.gz",
-              "sha256": "9dc6875065ddf5816c00312328f0f4f1c801ad11c8c40af7192d3068ec1edf27"
+              "url": "https://homebrew.bintray.com/bottles/xcodegen-2.16.0.catalina.bottle.tar.gz",
+              "sha256": "fc8f03f0f3968c6f913725629bdfa34a24a539a6868afdb1112b8f76cdbf5a55"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/xcodegen-2.15.1.mojave.bottle.tar.gz",
-              "sha256": "d6359a7e712f7a749184ad7f9285abaafdf1cc0187d01278645e46688f86bb8a"
+              "url": "https://homebrew.bintray.com/bottles/xcodegen-2.16.0.mojave.bottle.tar.gz",
+              "sha256": "a8eea29cb064ef817a1aae173b102eb689a263fc4039987a4592e9f15c4b1d85"
             }
           }
         }
       },
       "quicktype": {
-        "version": "15.0.200",
+        "version": "15.0.240",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/quicktype-15.0.200.catalina.bottle.tar.gz",
-              "sha256": "e9c375ef085f9fcdc566d03ddf112d6d909f9f971e367e3ea18fade97ad691be"
+              "url": "https://homebrew.bintray.com/bottles/quicktype-15.0.240.catalina.bottle.tar.gz",
+              "sha256": "c6dcb4ca8f02a79d042691aa9780ff118421cbb00d6dd1dff170c0f5880e1e3e"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/quicktype-15.0.200.mojave.bottle.tar.gz",
-              "sha256": "bae953c4acc58450f65424f3b4efb64da7b950c8c9a3cb6e9b61bb4138a31610"
+              "url": "https://homebrew.bintray.com/bottles/quicktype-15.0.240.mojave.bottle.tar.gz",
+              "sha256": "b9a4a53503d75d0a6e31b67d52688aa484819abd5e539621cb0ddffd0892eeb2"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/quicktype-15.0.200.high_sierra.bottle.tar.gz",
-              "sha256": "ba3c712342dfc08a2b8f093341bc5e3137e631e466ee99fad695c97653b248f2"
+              "url": "https://homebrew.bintray.com/bottles/quicktype-15.0.240.high_sierra.bottle.tar.gz",
+              "sha256": "840ae4619f54bb0f2e70e1b1580be76a1361c0fb15deb559d3897f2381bdd52c"
+            }
+          }
+        }
+      },
+      "swiftgen": {
+        "version": "6.2.0",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/swiftgen-6.2.0.catalina.bottle.tar.gz",
+              "sha256": "9f3f4d5e056071af2c6577f4f240a4fd4bc6a1c9440969c660e0dd48a4f4328c"
             }
           }
         }
@@ -44,12 +57,12 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.16",
+        "HOMEBREW_VERSION": "2.4.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "5652a01fdb05ab6bfbe80eb138ed582a2685c24f",
+        "Homebrew/homebrew-core": "8f0762ca4f984c92beb27ce5753f6cbbc4fdbff4",
         "CLT": "1103.0.32.29",
-        "Xcode": "11.4.1",
-        "macOS": "10.15.4"
+        "Xcode": "11.5",
+        "macOS": "10.15.5"
       }
     }
   }

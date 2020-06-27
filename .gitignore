@@ -84,3 +84,7 @@ iOSInjectionProject/
 .DS_Store
 
 *.xcodeproj
+
+default.profraw
+
+Sources/GitHubSearch/Resources/Generated/

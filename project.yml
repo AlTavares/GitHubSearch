@@ -23,6 +23,9 @@ targets:
     platform: iOS
     deploymentTarget: "13.0"
     sources: Sources/GitHubSearch
+    preBuildScripts:
+      - script: swiftgen
+        name: SwiftGen
     dependencies:
       - package: SFSafeSymbols
       - package: Logging
