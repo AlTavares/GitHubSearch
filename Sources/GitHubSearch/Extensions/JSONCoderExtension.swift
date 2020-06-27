@@ -14,3 +14,11 @@ extension JSONDecoder {
         }
     }
 }
+
+extension JSONEncoder {
+    static var `default`: JSONEncoder {
+        configure(JSONEncoder()) {
+            $0.dateEncodingStrategy = .iso8601
+        }
+    }
+}
