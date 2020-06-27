@@ -14,6 +14,8 @@ extension Locator {
         Locator.register(URLSession.shared)
         Locator.register(HTTPClient())
 
+        Locator.register(JSONDecoder.default)
+
         Locator.register(ImageCache())
         Locator.register(RequestCache(entryLifetime: 5 * 60))
 

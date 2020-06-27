@@ -15,6 +15,7 @@ class HTTPClient {
 
     @Locatable private var urlSession: URLSession
     @Locatable private var cache: RequestCache
+    @Locatable private var jsonDecoder: JSONDecoder
 
     func perform<T: Decodable>(request: Request) -> AnyPublisher<T, Error> {
         guard let urlRequest = request.asURLRequest() else {
@@ -29,8 +30,8 @@ class HTTPClient {
         }
 
         return urlSession.dataTaskPublisher(for: urlRequest)
-            .tryMap { data, _ in
-                try JSONDecoder().decode(T.self, from: data)
+            .tryMap { [jsonDecoder] data, _ in
+                try jsonDecoder.decode(T.self, from: data)
             }
             .handleEvents(receiveOutput: { [cache] output in
                 cache[request] = output
