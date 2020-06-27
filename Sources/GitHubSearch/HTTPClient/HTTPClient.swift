@@ -30,6 +30,7 @@ class HTTPClient {
         }
 
         return urlSession.dataTaskPublisher(for: urlRequest)
+            .retry(request.retryCount)
             .tryMap { [jsonDecoder] data, _ in
                 try jsonDecoder.decode(T.self, from: data)
             }
