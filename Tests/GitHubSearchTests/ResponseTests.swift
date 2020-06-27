@@ -20,6 +20,12 @@ class ResponseTests: QuickSpec {
                 let response = try self.jsonDecoder.decode(ResponseGitHubAPI.self, from: json)
                 assertSnapshot(matching: response, as: .dump)
             }
+            it("should map to the view data objects") {
+                let json = try File.load(name: "repositories.json")
+                let response = try self.jsonDecoder.decode(ResponseGitHubAPI.self, from: json)
+                let viewDataObjects = [RepositoryViewData](from: response)
+                assertSnapshot(matching: viewDataObjects, as: .dump)
+            }
         }
     }
 }

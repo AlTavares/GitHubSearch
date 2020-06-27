@@ -1,0 +1,1000 @@
+▿ 100 elements
+  ▿ RepositoryViewData
+    - forksCount: 5909
+    - id: 21700699
+    ▿ itemDescription: Optional<String>
+      - some: "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects "
+    - name: "awesome-ios"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/484656?v=4"
+      - userName: "vsouza"
+    - stargazersCount: 35148
+  ▿ RepositoryViewData
+    - forksCount: 6227
+    - id: 22458259
+    ▿ itemDescription: Optional<String>
+      - some: "Elegant HTTP Networking in Swift"
+    - name: "Alamofire"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/7774181?v=4"
+      - userName: "Alamofire"
+    - stargazersCount: 33798
+  ▿ RepositoryViewData
+    - forksCount: 7642
+    - id: 60844036
+    ▿ itemDescription: Optional<String>
+      - some: "Next Generation of ShadowsocksX"
+    - name: "ShadowsocksX-NG"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/3006190?v=4"
+      - userName: "shadowsocks"
+    - stargazersCount: 28033
+  ▿ RepositoryViewData
+    - forksCount: 1830
+    - id: 76838017
+    ▿ itemDescription: Optional<String>
+      - some: "The modern video player for macOS."
+    - name: "iina"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/35151645?v=4"
+      - userName: "iina"
+    - stargazersCount: 24155
+  ▿ RepositoryViewData
+    - forksCount: 3934
+    - id: 29887499
+    ▿ itemDescription: Optional<String>
+      - some: ":iphone: Collaborative List of Open-Source iOS Apps"
+    - name: "open-source-ios-apps"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/4723115?v=4"
+      - userName: "dkhamsing"
+    - stargazersCount: 23870
+  ▿ RepositoryViewData
+    - forksCount: 4013
+    - id: 50447720
+    ▿ itemDescription: Optional<String>
+      - some: "Algorithms and data structures in Swift, with explanations!"
+    - name: "swift-algorithm-club"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/4722515?v=4"
+      - userName: "raywenderlich"
+    - stargazersCount: 23104
+  ▿ RepositoryViewData
+    - forksCount: 4552
+    - id: 32578467
+    ▿ itemDescription: Optional<String>
+      - some: "Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart."
+    - name: "Charts"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/366926?v=4"
+      - userName: "danielgindi"
+    - stargazersCount: 22972
+  ▿ RepositoryViewData
+    - forksCount: 1507
+    - id: 109343098
+    ▿ itemDescription: Optional<String>
+      - some: "🚀 Awesome list of open source applications for macOS."
+    - name: "open-source-mac-os-apps"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/15808174?v=4"
+      - userName: "serhii-londar"
+    - stargazersCount: 22862
+  ▿ RepositoryViewData
+    - forksCount: 2819
+    - id: 70198664
+    ▿ itemDescription: Optional<String>
+      - some: "An iOS library to natively render After Effects vector animations"
+    - name: "lottie-ios"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/698437?v=4"
+      - userName: "airbnb"
+    - stargazersCount: 19842
+  ▿ RepositoryViewData
+    - forksCount: 3554
+    - id: 3606624
+    ▿ itemDescription: Optional<String>
+      - some: "Cocoa framework and Obj-C dynamism bindings for ReactiveSwift."
+    - name: "ReactiveCocoa"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/3422977?v=4"
+      - userName: "ReactiveCocoa"
+    - stargazersCount: 19834
+  ▿ RepositoryViewData
+    - forksCount: 3135
+    - id: 20965586
+    ▿ itemDescription: Optional<String>
+      - some: "The better way to deal with JSON data in Swift."
+    - name: "SwiftyJSON"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/8858017?v=4"
+      - userName: "SwiftyJSON"
+    - stargazersCount: 19700
+  ▿ RepositoryViewData
+    - forksCount: 2699
+    - id: 21696302
+    ▿ itemDescription: Optional<String>
+      - some: "A collaborative list of awesome Swift libraries and resources. Feel free to contribute!"
+    - name: "awesome-swift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/475463?v=4"
+      - userName: "matteocrippa"
+    - stargazersCount: 19352
+  ▿ RepositoryViewData
+    - forksCount: 1147
+    - id: 49910095
+    ▿ itemDescription: Optional<String>
+      - some: "💧 A server-side Swift web framework."
+    - name: "vapor"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/17364220?v=4"
+      - userName: "vapor"
+    - stargazersCount: 18978
+  ▿ RepositoryViewData
+    - forksCount: 1493
+    - id: 74697963
+    ▿ itemDescription: Optional<String>
+      - some: "Elegant transition library for iOS & tvOS"
+    - name: "Hero"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/40681391?v=4"
+      - userName: "HeroTransitions"
+    - stargazersCount: 18574
+  ▿ RepositoryViewData
+    - forksCount: 3338
+    - id: 33569135
+    ▿ itemDescription: Optional<String>
+      - some: "Reactive Programming in Swift"
+    - name: "RxSwift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/6407041?v=4"
+      - userName: "ReactiveX"
+    - stargazersCount: 18566
+  ▿ RepositoryViewData
+    - forksCount: 944
+    - id: 44998092
+    ▿ itemDescription: Optional<String>
+      - some: "Apple TV Aerial Screensaver for Mac"
+    - name: "Aerial"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/967800?v=4"
+      - userName: "JohnCoates"
+    - stargazersCount: 17975
+  ▿ RepositoryViewData
+    - forksCount: 1631
+    - id: 20541795
+    ▿ itemDescription: Optional<String>
+      - some: "A Swift Autolayout DSL for iOS & OS X"
+    - name: "SnapKit"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/7809696?v=4"
+      - userName: "SnapKit"
+    - stargazersCount: 16572
+  ▿ RepositoryViewData
+    - forksCount: 1835
+    - id: 33486016
+    ▿ itemDescription: Optional<String>
+      - some: "A lightweight, pure-Swift library for downloading and caching images from the web."
+    - name: "Kingfisher"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/1019875?v=4"
+      - userName: "onevcat"
+    - stargazersCount: 16286
+  ▿ RepositoryViewData
+    - forksCount: 3601
+    - id: 20822291
+    ▿ itemDescription: Optional<String>
+      - some: "Swift Featured Projects in brain Mapping"
+    - name: "SwiftGuide"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/373016?v=4"
+      - userName: "ipader"
+    - stargazersCount: 15081
+  ▿ RepositoryViewData
+    - forksCount: 1425
+    - id: 25050844
+    ▿ itemDescription: Optional<String>
+      - some: "A simple, decentralized dependency manager for Cocoa"
+    - name: "Carthage"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/9146792?v=4"
+      - userName: "Carthage"
+    - stargazersCount: 13757
+  ▿ RepositoryViewData
+    - forksCount: 979
+    - id: 43568832
+    ▿ itemDescription: Optional<String>
+      - some: "Server-side Swift. The Perfect core toolset and framework for Swift Developers. (For mobile back-end development, website and API development, and more…)"
+    - name: "Perfect"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/14945043?v=4"
+      - userName: "PerfectlySoft"
+    - stargazersCount: 13742
+  ▿ RepositoryViewData
+    - forksCount: 1676
+    - id: 28513398
+    ▿ itemDescription: Optional<String>
+      - some: "A library to simplify iOS animations in Swift."
+    - name: "Spring"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/1065452?v=4"
+      - userName: "MengTo"
+    - stargazersCount: 13666
+  ▿ RepositoryViewData
+    - forksCount: 1599
+    - id: 35732214
+    ▿ itemDescription: Optional<String>
+      - some: "A tool to enforce Swift style and conventions."
+    - name: "SwiftLint"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/7575099?v=4"
+      - userName: "realm"
+    - stargazersCount: 13545
+  ▿ RepositoryViewData
+    - forksCount: 1270
+    - id: 18440563
+    ▿ itemDescription: Optional<String>
+      - some: "Promises for Swift & ObjC."
+    - name: "PromiseKit"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/58962?v=4"
+      - userName: "mxcl"
+    - stargazersCount: 12708
+  ▿ RepositoryViewData
+    - forksCount: 1500
+    - id: 23013268
+    ▿ itemDescription: Optional<String>
+      - some: "Network abstraction layer written in Swift."
+    - name: "Moya"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/13662162?v=4"
+      - userName: "Moya"
+    - stargazersCount: 12188
+  ▿ RepositoryViewData
+    - forksCount: 1374
+    - id: 21796955
+    ▿ itemDescription: Optional<String>
+      - some: "📖 Design Patterns implemented in Swift 5.0"
+    - name: "Design-Patterns-In-Swift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/3382607?v=4"
+      - userName: "ochococo"
+    - stargazersCount: 11913
+  ▿ RepositoryViewData
+    - forksCount: 1253
+    - id: 41215439
+    ▿ itemDescription: Optional<String>
+      - some: "A UI/UX framework for creating beautiful applications."
+    - name: "Material"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/10069574?v=4"
+      - userName: "CosmicMind"
+    - stargazersCount: 11531
+  ▿ RepositoryViewData
+    - forksCount: 2071
+    - id: 51648174
+    ▿ itemDescription: Optional<String>
+      - some: "A self-taught project to learn Swift."
+    - name: "30DaysofSwift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/698982?v=4"
+      - userName: "allenwong"
+    - stargazersCount: 11014
+  ▿ RepositoryViewData
+    - forksCount: 1243
+    - id: 43330374
+    ▿ itemDescription: Optional<String>
+      - some: "Elegant iOS form builder in Swift"
+    - name: "Eureka"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/2227731?v=4"
+      - userName: "xmartlabs"
+    - stargazersCount: 10757
+  ▿ RepositoryViewData
+    - forksCount: 1338
+    - id: 26481815
+    ▿ itemDescription: Optional<String>
+      - some: ":octocat: RAMAnimatedTabBarController is a Swift UI module library for adding animation to iOS tabbar items and icons. iOS library made by @Ramotion - https://www.ramotion.com/agency/app-development/"
+    - name: "animated-tab-bar"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/6028820?v=4"
+      - userName: "Ramotion"
+    - stargazersCount: 10527
+  ▿ RepositoryViewData
+    - forksCount: 1153
+    - id: 48376164
+    ▿ itemDescription: Optional<String>
+      - some: ":octocat: 📃 FoldingCell is an expanding content cell with animation made by @Ramotion - https://www.ramotion.com/agency/app-development/"
+    - name: "folding-cell"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/6028820?v=4"
+      - userName: "Ramotion"
+    - stargazersCount: 9728
+  ▿ RepositoryViewData
+    - forksCount: 1355
+    - id: 152742185
+    ▿ itemDescription: Optional<String>
+      - some: "V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用swift编写,支持vmess,shadowsocks,socks5等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等"
+    - name: "V2rayU"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/1435250?v=4"
+      - userName: "yanue"
+    - stargazersCount: 9497
+  ▿ RepositoryViewData
+    - forksCount: 2237
+    - id: 26133979
+    ▿ itemDescription: Optional<String>
+      - some: "Firefox for iOS"
+    - name: "firefox-ios"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/22351667?v=4"
+      - userName: "mozilla-mobile"
+    - stargazersCount: 9431
+  ▿ RepositoryViewData
+    - forksCount: 1006
+    - id: 39452201
+    ▿ itemDescription: Optional<String>
+      - some: "A collection of awesome loading animations"
+    - name: "NVActivityIndicatorView"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/4948012?v=4"
+      - userName: "ninjaprox"
+    - stargazersCount: 9274
+  ▿ RepositoryViewData
+    - forksCount: 704
+    - id: 109878485
+    ▿ itemDescription: Optional<String>
+      - some: "☠️ An elegant way to show users that something is happening and also prepare them to which contents he is waiting"
+    - name: "SkeletonView"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/1409041?v=4"
+      - userName: "Juanpe"
+    - stargazersCount: 9148
+  ▿ RepositoryViewData
+    - forksCount: 2539
+    - id: 20430314
+    ▿ itemDescription: Optional<String>
+      - some: "swift implementation of flappy bird. More at fullstackedu.com"
+    - name: "FlappySwift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/4064333?v=4"
+      - userName: "fullstackio"
+    - stargazersCount: 9128
+  ▿ RepositoryViewData
+    - forksCount: 817
+    - id: 20506004
+    ▿ itemDescription: Optional<String>
+      - some: "The Swift (and Objective-C) testing framework."
+    - name: "Quick"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/8083968?v=4"
+      - userName: "Quick"
+    - stargazersCount: 8736
+  ▿ RepositoryViewData
+    - forksCount: 1089
+    - id: 64705781
+    ▿ itemDescription: Optional<String>
+      - some: "A handy collection of more than 500 native Swift extensions to boost your productivity."
+    - name: "SwifterSwift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/25029478?v=4"
+      - userName: "SwifterSwift"
+    - stargazersCount: 8562
+  ▿ RepositoryViewData
+    - forksCount: 958
+    - id: 25310522
+    ▿ itemDescription: Optional<String>
+      - some: "Simple JSON Object mapping written in Swift"
+    - name: "ObjectMapper"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/1562134?v=4"
+      - userName: "tristanhimmelman"
+    - stargazersCount: 8492
+  ▿ RepositoryViewData
+    - forksCount: 767
+    - id: 46383222
+    ▿ itemDescription: Optional<String>
+      - some: "Design and prototype customized UI, interaction, navigation, transition and animation for App Store ready Apps in Interface Builder with IBAnimatable."
+    - name: "IBAnimatable"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/20221209?v=4"
+      - userName: "IBAnimatable"
+    - stargazersCount: 8375
+  ▿ RepositoryViewData
+    - forksCount: 908
+    - id: 21535619
+    ▿ itemDescription: Optional<String>
+      - some: "CryptoSwift is a growing collection of standard and secure cryptographic algorithms implemented in Swift"
+    - name: "CryptoSwift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/758033?v=4"
+      - userName: "krzyzanowskim"
+    - stargazersCount: 7870
+  ▿ RepositoryViewData
+    - forksCount: 965
+    - id: 44840041
+    ▿ itemDescription: Optional<String>
+      - some: "The Package Manager for the Swift Programming Language"
+    - name: "swift-package-manager"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/10639145?v=4"
+      - userName: "apple"
+    - stargazersCount: 7797
+  ▿ RepositoryViewData
+    - forksCount: 690
+    - id: 34222505
+    ▿ itemDescription: Optional<String>
+      - some: "The unofficial WWDC app for macOS"
+    - name: "WWDC"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/67184?v=4"
+      - userName: "insidegui"
+    - stargazersCount: 7762
+  ▿ RepositoryViewData
+    - forksCount: 290
+    - id: 103053825
+    ▿ itemDescription: Optional<String>
+      - some: "Display macOS Dock in Touch Bar"
+    - name: "Pock"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/422119?v=4"
+      - userName: "pigigaldi"
+    - stargazersCount: 7715
+  ▿ RepositoryViewData
+    - forksCount: 271
+    - id: 10115880
+    ▿ itemDescription: Optional<String>
+      - some: "Automatic tiling window manager for macOS à la xmonad."
+    - name: "Amethyst"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/212270?v=4"
+      - userName: "ianyh"
+    - stargazersCount: 7528
+  ▿ RepositoryViewData
+    - forksCount: 510
+    - id: 27892731
+    ▿ itemDescription: Optional<String>
+      - some: "Strong typed, autocompleted resources like images, fonts and segues in Swift projects"
+    - name: "R.swift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/618233?v=4"
+      - userName: "mac-cain13"
+    - stargazersCount: 7459
+  ▿ RepositoryViewData
+    - forksCount: 491
+    - id: 51308720
+    ▿ itemDescription: Optional<String>
+      - some: "A Swift web framework and HTTP server."
+    - name: "Kitura"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/16882981?v=4"
+      - userName: "IBM-Swift"
+    - stargazersCount: 7377
+  ▿ RepositoryViewData
+    - forksCount: 1093
+    - id: 75432091
+    ▿ itemDescription: Optional<String>
+      - some: "Kickstarter for iOS. Bring new ideas to life, anywhere."
+    - name: "ios-oss"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/120676?v=4"
+      - userName: "kickstarter"
+    - stargazersCount: 7326
+  ▿ RepositoryViewData
+    - forksCount: 755
+    - id: 21190654
+    ▿ itemDescription: Optional<String>
+      - some: "[EXPERIMENTAL] Graceful morphing effects for UILabel written in Swift."
+    - name: "LTMorphingLabel"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/219689?v=4"
+      - userName: "lexrus"
+    - stargazersCount: 7270
+  ▿ RepositoryViewData
+    - forksCount: 1069
+    - id: 137154114
+    - itemDescription: Optional<String>.none
+    - name: "clashX"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/11733500?v=4"
+      - userName: "yichengchen"
+    - stargazersCount: 7221
+  ▿ RepositoryViewData
+    - forksCount: 177
+    - id: 40092232
+    ▿ itemDescription: Optional<String>
+      - some: ":package: Mac App Store command line interface"
+    - name: "mas"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/22406844?v=4"
+      - userName: "mas-cli"
+    - stargazersCount: 7164
+  ▿ RepositoryViewData
+    - forksCount: 233
+    - id: 106618491
+    ▿ itemDescription: Optional<String>
+      - some: "A tool for defining design systems and using them to generate cross-platform UI code, Sketch files, and other artifacts."
+    - name: "Lona"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/698437?v=4"
+      - userName: "airbnb"
+    - stargazersCount: 7131
+  ▿ RepositoryViewData
+    - forksCount: 519
+    - id: 20940824
+    ▿ itemDescription: Optional<String>
+      - some: "A declarative Auto Layout DSL for Swift :iphone::triangular_ruler:"
+    - name: "Cartography"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/212465?v=4"
+      - userName: "robb"
+    - stargazersCount: 7103
+  ▿ RepositoryViewData
+    - forksCount: 1196
+    - id: 24797553
+    ▿ itemDescription: Optional<String>
+      - some: "A type-safe, Swift-language layer over SQLite3."
+    - name: "SQLite.swift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/658?v=4"
+      - userName: "stephencelis"
+    - stargazersCount: 6975
+  ▿ RepositoryViewData
+    - forksCount: 774
+    - id: 24293205
+    ▿ itemDescription: Optional<String>
+      - some: "Replacement for Apple\'s Reachability re-written in Swift with closures"
+    - name: "Reachability.swift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/329318?v=4"
+      - userName: "ashleymills"
+    - stargazersCount: 6823
+  ▿ RepositoryViewData
+    - forksCount: 648
+    - id: 54027312
+    ▿ itemDescription: Optional<String>
+      - some: "The Unofficial Apple iOS Swift Calendar View. Swift calendar Library. iOS calendar Control. 100% Customizable"
+    - name: "JTAppleCalendar"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/2439146?v=4"
+      - userName: "patchthecode"
+    - stargazersCount: 6595
+  ▿ RepositoryViewData
+    - forksCount: 447
+    - id: 48027844
+    ▿ itemDescription: Optional<String>
+      - some: "Unidirectional Data Flow in Swift - Inspired by Redux"
+    - name: "ReSwift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/16023071?v=4"
+      - userName: "ReSwift"
+    - stargazersCount: 6488
+  ▿ RepositoryViewData
+    - forksCount: 469
+    - id: 39166950
+    ▿ itemDescription: Optional<String>
+      - some: "The Swift code generator for your assets, storyboards, Localizable.strings, … — Get rid of all String-based APIs!"
+    - name: "SwiftGen"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/24867377?v=4"
+      - userName: "SwiftGen"
+    - stargazersCount: 6347
+  ▿ RepositoryViewData
+    - forksCount: 1152
+    - id: 28266028
+    ▿ itemDescription: Optional<String>
+      - some: "Android PagerTabStrip for iOS."
+    - name: "XLPagerTabStrip"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/2227731?v=4"
+      - userName: "xmartlabs"
+    - stargazersCount: 6337
+  ▿ RepositoryViewData
+    - forksCount: 764
+    - id: 95652496
+    ▿ itemDescription: Optional<String>
+      - some: "A curated list of awesome ARKit projects and resources. Feel free to contribute!"
+    - name: "Awesome-ARKit"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/6186284?v=4"
+      - userName: "olucurious"
+    - stargazersCount: 6327
+  ▿ RepositoryViewData
+    - forksCount: 1420
+    - id: 51711443
+    ▿ itemDescription: Optional<String>
+      - some: "30 mini Swift Apps for self-study"
+    - name: "Swift-30-Projects"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/3916492?v=4"
+      - userName: "soapyigu"
+    - stargazersCount: 6145
+  ▿ RepositoryViewData
+    - forksCount: 759
+    - id: 21924882
+    ▿ itemDescription: Optional<String>
+      - some: "Websockets in swift for iOS and OSX"
+    - name: "Starscream"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/905059?v=4"
+      - userName: "daltoniam"
+    - stargazersCount: 6005
+  ▿ RepositoryViewData
+    - forksCount: 424
+    - id: 120498971
+    ▿ itemDescription: Optional<String>
+      - some: "Event-driven network application framework for high performance protocol servers & clients, non-blocking."
+    - name: "swift-nio"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/10639145?v=4"
+      - userName: "apple"
+    - stargazersCount: 5958
+  ▿ RepositoryViewData
+    - forksCount: 620
+    - id: 14238862
+    ▿ itemDescription: Optional<String>
+      - some: "Scrollable UINavigationBar that follows the scrolling of a UIScrollView"
+    - name: "AMScrollingNavbar"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/570797?v=4"
+      - userName: "andreamazz"
+    - stargazersCount: 5948
+  ▿ RepositoryViewData
+    - forksCount: 1298
+    - id: 32262438
+    ▿ itemDescription: Optional<String>
+      - some: "Meet Genius"
+    - name: "Yep"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/7514530?v=4"
+      - userName: "CatchChat"
+    - stargazersCount: 5905
+  ▿ RepositoryViewData
+    - forksCount: 415
+    - id: 106023615
+    ▿ itemDescription: Optional<String>
+      - some: "ViewAnimator brings your UI to life with just one line"
+    - name: "ViewAnimator"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/14804033?v=4"
+      - userName: "marcosgriselli"
+    - stargazersCount: 5853
+  ▿ RepositoryViewData
+    - forksCount: 568
+    - id: 35143711
+    ▿ itemDescription: Optional<String>
+      - some: "Parse, validate, manipulate, and display dates, time and timezones in Swift"
+    - name: "SwiftDate"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/235645?v=4"
+      - userName: "malcommac"
+    - stargazersCount: 5780
+  ▿ RepositoryViewData
+    - forksCount: 550
+    - id: 46527265
+    ▿ itemDescription: Optional<String>
+      - some: "The Swift machine learning library."
+    - name: "Swift-AI"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/26942034?v=4"
+      - userName: "Swift-AI"
+    - stargazersCount: 5734
+  ▿ RepositoryViewData
+    - forksCount: 551
+    - id: 28463126
+    ▿ itemDescription: Optional<String>
+      - some: "Simple Swift wrapper for Keychain that works on iOS, watchOS, tvOS and macOS."
+    - name: "KeychainAccess"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/40610?v=4"
+      - userName: "kishikawakatsumi"
+    - stargazersCount: 5651
+  ▿ RepositoryViewData
+    - forksCount: 465
+    - id: 8200767
+    ▿ itemDescription: Optional<String>
+      - some: "Create useful .gitignore files for your project"
+    - name: "gitignore.io"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/4004158?v=4"
+      - userName: "toptal"
+    - stargazersCount: 5627
+  ▿ RepositoryViewData
+    - forksCount: 525
+    - id: 65219683
+    ▿ itemDescription: Optional<String>
+      - some: "A very flexible message bar for iOS written in Swift."
+    - name: "SwiftMessages"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/13121066?v=4"
+      - userName: "SwiftKickMobile"
+    - stargazersCount: 5572
+  ▿ RepositoryViewData
+    - forksCount: 589
+    - id: 29703101
+    ▿ itemDescription: Optional<String>
+      - some: "Custom UITextFields effects inspired by Codrops, built using Swift"
+    - name: "TextFieldEffects"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/24159?v=4"
+      - userName: "raulriera"
+    - stargazersCount: 5426
+  ▿ RepositoryViewData
+    - forksCount: 658
+    - id: 81572885
+    ▿ itemDescription: Optional<String>
+      - some: "FSPagerView is an elegant Screen Slide Library. It is extremely helpful for making Banner View、Product Show、Welcome/Guide Pages、Screen/ViewController Sliders."
+    - name: "FSPagerView"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/5186464?v=4"
+      - userName: "WenchaoD"
+    - stargazersCount: 5378
+  ▿ RepositoryViewData
+    - forksCount: 394
+    - id: 76171100
+    ▿ itemDescription: Optional<String>
+      - some: "Meta-programming for Swift, stop writing boilerplate code."
+    - name: "Sourcery"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/1468993?v=4"
+      - userName: "krzysztofzablocki"
+    - stargazersCount: 5369
+  ▿ RepositoryViewData
+    - forksCount: 327
+    - id: 130575280
+    ▿ itemDescription: Optional<String>
+      - some: "An animated avatar that responds to text field interactions"
+    - name: "LoginCritter"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/3449816?v=4"
+      - userName: "cgoldsby"
+    - stargazersCount: 5335
+  ▿ RepositoryViewData
+    - forksCount: 320
+    - id: 34713704
+    ▿ itemDescription: Optional<String>
+      - some: "One-click screenshots, video recordings, app installation for iOS and Android"
+    - name: "androidtool-mac"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/1548468?v=4"
+      - userName: "mortenjust"
+    - stargazersCount: 5309
+  ▿ RepositoryViewData
+    - forksCount: 556
+    - id: 59643097
+    ▿ itemDescription: Optional<String>
+      - some: ":octocat: ExpandingCollection is an animated material design UI card peek/pop controller. iOS library made by @Ramotion - https://www.ramotion.com/agency/app-development/"
+    - name: "expanding-collection"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/6028820?v=4"
+      - userName: "Ramotion"
+    - stargazersCount: 5266
+  ▿ RepositoryViewData
+    - forksCount: 437
+    - id: 47259830
+    ▿ itemDescription: Optional<String>
+      - some: "Powerful and easy-to-use vector graphics Swift library with SVG support"
+    - name: "Macaw"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/10406525?v=4"
+      - userName: "exyte"
+    - stargazersCount: 5238
+  ▿ RepositoryViewData
+    - forksCount: 629
+    - id: 80831537
+    ▿ itemDescription: Optional<String>
+      - some: "Swipeable UITableViewCell/UICollectionViewCell based on the stock Mail.app, implemented in Swift."
+    - name: "SwipeCellKit"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/28763549?v=4"
+      - userName: "SwipeCellKit"
+    - stargazersCount: 5183
+  ▿ RepositoryViewData
+    - forksCount: 314
+    - id: 32012751
+    ▿ itemDescription: Optional<String>
+      - some: "Powerful image loading and caching system"
+    - name: "Nuke"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/1567433?v=4"
+      - userName: "kean"
+    - stargazersCount: 5146
+  ▿ RepositoryViewData
+    - forksCount: 1213
+    - id: 20682114
+    ▿ itemDescription: Optional<String>
+      - some: "Swift Language Weather is an iOS weather app developed in Swift 4. "
+    - name: "SwiftLanguageWeather"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/573856?v=4"
+      - userName: "JakeLin"
+    - stargazersCount: 5125
+  ▿ RepositoryViewData
+    - forksCount: 445
+    - id: 51995332
+    ▿ itemDescription: Optional<String>
+      - some: "An adaptive scrollable graph view for iOS to visualise simple discrete datasets. Written in Swift."
+    - name: "ScrollableGraphView"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/2552214?v=4"
+      - userName: "philackm"
+    - stargazersCount: 5124
+  ▿ RepositoryViewData
+    - forksCount: 898
+    - id: 28192481
+    ▿ itemDescription: Optional<String>
+      - some: "A paging menu controller built from other view controllers placed inside a scroll view (like Spotify, Windows Phone, Instagram)"
+    - name: "PageMenu"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/28117067?v=4"
+      - userName: "PageMenu"
+    - stargazersCount: 5090
+  ▿ RepositoryViewData
+    - forksCount: 586
+    - id: 20680357
+    ▿ itemDescription: Optional<String>
+      - some: "A lightweight generic cache for iOS written in Swift with extra love for images."
+    - name: "HanekeSwift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/8600207?v=4"
+      - userName: "Haneke"
+    - stargazersCount: 5016
+  ▿ RepositoryViewData
+    - forksCount: 731
+    - id: 20557685
+    ▿ itemDescription: Optional<String>
+      - some: "Beautiful animated Alert View. Written in Swift"
+    - name: "SCLAlertView-Swift"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/1641795?v=4"
+      - userName: "vikmeup"
+    - stargazersCount: 4992
+  ▿ RepositoryViewData
+    - forksCount: 1350
+    - id: 19429698
+    ▿ itemDescription: Optional<String>
+      - some: "A private messenger for iOS."
+    - name: "Signal-iOS"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/702459?v=4"
+      - userName: "signalapp"
+    - stargazersCount: 4937
+  ▿ RepositoryViewData
+    - forksCount: 533
+    - id: 33456123
+    ▿ itemDescription: Optional<String>
+      - some: "Intelligent iOS permissions UI and unified API"
+    - name: "PermissionScope"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/49688?v=4"
+      - userName: "nickoneill"
+    - stargazersCount: 4918
+  ▿ RepositoryViewData
+    - forksCount: 546
+    - id: 41854508
+    ▿ itemDescription: Optional<String>
+      - some: "Lightweight In App Purchases Swift framework for iOS 8.0+, tvOS 9.0+ and macOS 10.10+ ⛺"
+    - name: "SwiftyStoreKit"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/153167?v=4"
+      - userName: "bizz84"
+    - stargazersCount: 4881
+  ▿ RepositoryViewData
+    - forksCount: 578
+    - id: 117243061
+    ▿ itemDescription: Optional<String>
+      - some: "Advanced usage of UIAlertController and pickers based on it: Telegram, Contacts, Location, PhotoLibrary, Country, Phone Code, Currency, Date..."
+    - name: "alerts-and-pickers"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/7115804?v=4"
+      - userName: "dillidon"
+    - stargazersCount: 4818
+  ▿ RepositoryViewData
+    - forksCount: 351
+    - id: 47025785
+    ▿ itemDescription: Optional<String>
+      - some: "Convenient & secure logging during development & release in Swift 3, 4 & 5"
+    - name: "SwiftyBeaver"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/16286228?v=4"
+      - userName: "SwiftyBeaver"
+    - stargazersCount: 4804
+  ▿ RepositoryViewData
+    - forksCount: 360
+    - id: 130471182
+    ▿ itemDescription: Optional<String>
+      - some: "SwiftEntryKit is a presentation library for iOS. It can be used to easily display overlays within your iOS apps."
+    - name: "SwiftEntryKit"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/5504255?v=4"
+      - userName: "huri000"
+    - stargazersCount: 4796
+  ▿ RepositoryViewData
+    - forksCount: 667
+    - id: 97334832
+    ▿ itemDescription: Optional<String>
+      - some: "Combines the high accuracy of AR with the scale of GPS data."
+    - name: "ARKit-CoreLocation"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/1865635?v=4"
+      - userName: "ProjectDent"
+    - stargazersCount: 4780
+  ▿ RepositoryViewData
+    - forksCount: 261
+    - id: 104852627
+    ▿ itemDescription: Optional<String>
+      - some: "General-purpose contextual cards for iOS"
+    - name: "BulletinBoard"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/16192914?v=4"
+      - userName: "alexaubry"
+    - stargazersCount: 4754
+  ▿ RepositoryViewData
+    - forksCount: 437
+    - id: 22757905
+    ▿ itemDescription: Optional<String>
+      - some: "A Swift library that uses the Accelerate framework to provide high-performance functions for matrix math, digital signal processing, and image manipulation."
+    - name: "Surge"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/56158915?v=4"
+      - userName: "Jounce"
+    - stargazersCount: 4743
+  ▿ RepositoryViewData
+    - forksCount: 144
+    - id: 17300388
+    ▿ itemDescription: Optional<String>
+      - some: "VimR — Neovim GUI for macOS"
+    - name: "vimr"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/460034?v=4"
+      - userName: "qvacua"
+    - stargazersCount: 4739
+  ▿ RepositoryViewData
+    - forksCount: 737
+    - id: 38444110
+    ▿ itemDescription: Optional<String>
+      - some: "KolodaView is a class designed to simplify the implementation of Tinder like cards on iOS. "
+    - name: "Koloda"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars2.githubusercontent.com/u/752338?v=4"
+      - userName: "Yalantis"
+    - stargazersCount: 4700
+  ▿ RepositoryViewData
+    - forksCount: 598
+    - id: 48572197
+    ▿ itemDescription: Optional<String>
+      - some: "Simple side/slide menu control for iOS, no code necessary! Lots of customization. Add it to your project in 5 minutes or less."
+    - name: "SideMenu"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars3.githubusercontent.com/u/5727743?v=4"
+      - userName: "jonkykong"
+    - stargazersCount: 4652
+  ▿ RepositoryViewData
+    - forksCount: 164
+    - id: 119822304
+    ▿ itemDescription: Optional<String>
+      - some: "🌈 Convert videos to high-quality GIFs on your Mac"
+    - name: "Gifski"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars1.githubusercontent.com/u/170270?v=4"
+      - userName: "sindresorhus"
+    - stargazersCount: 4638
+  ▿ RepositoryViewData
+    - forksCount: 374
+    - id: 190636955
+    ▿ itemDescription: Optional<String>
+      - some: "SwiftUI & Combine app using MovieDB API. With a custom Flux (Redux) implementation."
+    - name: "MovieSwiftUI"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/535509?v=4"
+      - userName: "Dimillian"
+    - stargazersCount: 4596
+  ▿ RepositoryViewData
+    - forksCount: 409
+    - id: 190707613
+    ▿ itemDescription: Optional<String>
+      - some: "Gathering all info published, both by Apple and by others, about new framework SwiftUI. "
+    - name: "About-SwiftUI"
+    ▿ owner: OwnerViewData
+      - avatarURL: "https://avatars0.githubusercontent.com/u/1409041?v=4"
+      - userName: "Juanpe"
+    - stargazersCount: 4584
