@@ -16,13 +16,9 @@ class ResponseTests: QuickSpec {
     override func spec() {
         describe("a github api response") {
             it("succesfully decodes a json input into a model") {
-                do {
-                    let json = try File.load(name: "repositories.json")
-                    let response = try self.jsonDecoder.decode(ResponseGitHubAPI.self, from: json)
-                    assertSnapshot(matching: response, as: .dump)
-                } catch {
-                    fail("\(error)")
-                }
+                let json = try File.load(name: "repositories.json")
+                let response = try self.jsonDecoder.decode(ResponseGitHubAPI.self, from: json)
+                assertSnapshot(matching: response, as: .dump)
             }
         }
     }
