@@ -16,7 +16,7 @@ struct Request: Hashable, CustomStringConvertible {
     var method: HTTPMethod = .get
     var queryItems: QueryItems = QueryItems()
     var headers: HTTPHeaders = HTTPHeaders()
-    var shouldRetry: Bool = false
+    var retryCount: Int = 1
 }
 
 extension Request {
