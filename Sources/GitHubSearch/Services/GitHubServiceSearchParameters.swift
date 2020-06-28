@@ -19,7 +19,7 @@ extension GitHubService {
             case term = "q"
             case page
             case itemsPerPage = "per_page"
-            case sorting
+            case sorting = "sort"
             case order
         }
     }
@@ -47,12 +47,7 @@ extension GitHubService {
     }
 
     enum Order: String, Encodable {
-        case ascending
-        case descending
-
-        enum CodingKeys: String, CodingKey {
-            case ascending = "asc"
-            case descending = "desc"
-        }
+        case ascending = "asc"
+        case descending = "desc"
     }
 }
