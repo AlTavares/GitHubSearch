@@ -8,17 +8,23 @@
 import Foundation
 
 extension Locator {
+    private enum SharedInstances {
+        static let imageCache = ImageCache()
+        static let requestCache = RequestCache(entryLifetime: 5 * 60)
+    }
+
     static var setup: () -> Void = {
         logger.debug("Setting up dependencies")
 
         Locator.register(URLSession.shared)
         Locator.register(HTTPClient())
+        Locator.register(GitHubService())
 
         Locator.register(JSONDecoder.default)
         Locator.register(JSONEncoder.default)
 
-        Locator.register(ImageCache())
-        Locator.register(RequestCache(entryLifetime: 5 * 60))
+        Locator.register(SharedInstances.imageCache)
+        Locator.register(SharedInstances.requestCache)
 
         return {}
     }()

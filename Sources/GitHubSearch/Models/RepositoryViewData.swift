@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct RepositoryViewData {
+struct RepositoryViewData: Identifiable {
     let id: Int
     let name: String
-    let itemDescription: String?
+    let itemDescription: String
     let owner: OwnerViewData
     let stargazersCount: Int
     let forksCount: Int
@@ -20,7 +20,7 @@ extension RepositoryViewData {
     init(from item: ResponseItem) {
         self.init(id: item.id,
                   name: item.name,
-                  itemDescription: item.itemDescription,
+                  itemDescription: item.itemDescription ?? "",
                   owner: .init(from: item.owner),
                   stargazersCount: item.stargazersCount,
                   forksCount: item.forksCount)

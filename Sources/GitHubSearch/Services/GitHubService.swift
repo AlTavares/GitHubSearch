@@ -22,12 +22,11 @@ class GitHubService {
 
     // https://api.github.com/search/repositories?q=language:swift&sort=stars&order=desc&page=0&per_page=1000
 
-    func search(with parameters: SearchParameters) -> AnyPublisher<[RepositoryViewData], Error> {
+    func search(with parameters: SearchParameters) -> AnyPublisher<ResponseGitHubAPI, Error> {
         let request = Request(host: API.baseURL,
                               path: API.Endpoints.searchRepositories,
                               queryItems: parameters.queryItems)
         return httpClient.perform(request: request)
-            .map([RepositoryViewData].init)
             .eraseToAnyPublisher()
     }
 }

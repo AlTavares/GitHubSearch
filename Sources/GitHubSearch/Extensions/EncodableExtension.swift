@@ -17,6 +17,6 @@ extension Encodable {
     var queryItems: QueryItems {
         dictionary.map { key, value in
             URLQueryItem(name: key, value: String(describing: value))
-        }
+        }.sorted(by: { $0.name < $1.name })
     }
 }
