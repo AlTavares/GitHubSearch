@@ -5,3 +5,8 @@
   Created by Alexandre Mantovani Tavares on 27/06/20.
   
 */
+
+"view.repository.search.title" = "Repositórios";
+"view.repository.searchBar.placeholder" = "Buscar por linguagem";
+
+"view.repository.emptyState.message" = "Lista de repositórios vazia";

@@ -1,7 +1,7 @@
 input_dir: Sources/GitHubSearch/Resources/
 output_dir: Sources/GitHubSearch/Resources/Generated/
 strings:
-  inputs: Localizable.strings
+  inputs: Base.lproj
   outputs:
     templateName: structured-swift5
     output: Strings.swift

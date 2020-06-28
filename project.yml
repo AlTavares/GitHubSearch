@@ -1,6 +1,8 @@
 name: GitHubSearch
 options:
   bundleIdPrefix: com.tavares
+settings:
+    CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED: true
 packages:
   SFSafeSymbols:
     url: https://github.com/piknotech/SFSafeSymbols.git

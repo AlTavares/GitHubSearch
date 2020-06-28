@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  GitHubSearch
+
+  Created by Alexandre Mantovani Tavares on 27/06/20.
+  
+*/
+
+"view.repository.search.title" = "Repositories";
+"view.repository.searchBar.placeholder" = "Search by language";
+
+"view.repository.emptyState.message" = "Repository list is empty";
