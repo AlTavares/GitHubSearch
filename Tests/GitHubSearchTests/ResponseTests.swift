@@ -12,17 +12,14 @@ import SnapshotTesting
 import XCTest
 
 class ResponseTests: QuickSpec {
-    @Locatable var jsonDecoder: JSONDecoder
     override func spec() {
         describe("a github api response") {
             it("succesfully decodes a json input into a model") {
-                let json = try File.load(name: "repositories.json")
-                let response = try self.jsonDecoder.decode(ResponseGitHubAPI.self, from: json)
+                let response = try File.repositories()
                 assertSnapshot(matching: response, as: .dump)
             }
             it("should map to the view data objects") {
-                let json = try File.load(name: "repositories.json")
-                let response = try self.jsonDecoder.decode(ResponseGitHubAPI.self, from: json)
+                let response = try File.repositories()
                 let viewDataObjects = [RepositoryViewData](from: response)
                 assertSnapshot(matching: viewDataObjects, as: .dump)
             }

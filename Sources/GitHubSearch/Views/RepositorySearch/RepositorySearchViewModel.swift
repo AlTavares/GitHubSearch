@@ -22,13 +22,19 @@ class RepositorySearchViewModel: ObservableObject {
     @Published var searchTerm: String = ""
     private let retrySignal = PassthroughSubject<Void, Never>()
 
+    var searchDelay: DispatchQueue.SchedulerTimeType.Stride { .milliseconds(300) }
+
     init() {
+        setupSearch()
+    }
+
+    func setupSearch() {
         $searchTerm
             .dropFirst()
             .handleEvents(receiveOutput: { [weak self] _ in
                 self?.state = .loading
             })
-            .debounce(for: .milliseconds(300), scheduler: DispatchQueue.main)
+            .debounce(for: searchDelay, scheduler: DispatchQueue.main)
             .map { [weak self] term -> AnyPublisher<ModelState, Never> in
                 guard let self = self, !term.isEmpty else { return Just(.idle).eraseToAnyPublisher() }
                 return self.search(for: term)
@@ -39,7 +45,7 @@ class RepositorySearchViewModel: ObservableObject {
             .store(in: &bag)
     }
 
-    private func search(for term: String) -> AnyPublisher<ModelState, Never> {
+    func search(for term: String) -> AnyPublisher<ModelState, Never> {
         service
             .search(with: .init(term: .language(term.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)),
                                 page: 0,
