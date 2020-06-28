@@ -25,14 +25,14 @@ struct URLImageView: View {
 
     var body: some View {
         StateView(state: imageLoader.state,
-                  idleView: { self.wrapped(view: self.placeholder)},
+                  idleView: { self.wrapped(view: self.placeholder) },
                   loadedView: {
                       Image(uiImage: $0)
                           .resizable()
                           .asAnyView()
                   },
                   loadingView: { self.wrapped(
-                      view: ActivityIndicator(isAnimating: true, style: .medium).asAnyView()
+                      view: self.loadingView
                   ) },
                   errorView: errorView)
     }
@@ -46,10 +46,17 @@ struct URLImageView: View {
     }
 
     private func errorView(_ error: Error) -> AnyView {
-        wrapped(view: VStack {
-            URLImageView.defaultPlaceholder
-            Text(error.errorDescription ?? "")
-        }.asAnyView())
+        placeholder
+    }
+
+    private var loadingView: AnyView {
+        placeholder.overlay(
+            ActivityIndicator(isAnimating: true, style: .medium)
+                .frame(width: 32, height: 32)
+                .background(Color.white)
+                .cornerRadius(8)
+                .shadow(radius: 4)
+        ).asAnyView()
     }
 }
 

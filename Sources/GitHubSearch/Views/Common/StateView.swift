@@ -11,6 +11,7 @@ struct DefaultStateView<Value>: View {
     var state: ValueState<Value>
     var idleView: () -> AnyView
     var loadedView: (Value) -> AnyView
+    var errorView: ((Error) -> AnyView)?
     var retryHandler: (() -> Void)?
 
     var body: some View {
@@ -18,7 +19,7 @@ struct DefaultStateView<Value>: View {
                          idleView: idleView,
                          loadedView: loadedView,
                          loadingView: activityIndicator,
-                         errorView: error)
+                         errorView: errorView ?? error)
     }
 
     private func activityIndicator() -> AnyView {
@@ -47,9 +48,9 @@ struct StateView<Value>: View {
                 return idleView()
             case .loading:
                 return loadingView()
-            case .error(let error):
+            case let .error(error):
                 return errorView(error)
-            case .loaded(let items):
+            case let .loaded(items):
                 return loadedView(items)
             }
         }
