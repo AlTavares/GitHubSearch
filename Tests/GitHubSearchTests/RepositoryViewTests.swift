@@ -36,13 +36,12 @@ class FakeRepositorySearchViewModel: RepositorySearchViewModel {
     override var searchDelay: DispatchQueue.SchedulerTimeType.Stride { .zero }
     override var searchTerm: String {
         willSet {
-            _ = search(for: newValue)
+            _ = search(for: newValue, page: 0)
         }
     }
 
     override func setupSearch() {}
-
-    override func search(for term: String) -> AnyPublisher<RepositorySearchViewModel.ModelState, Never> {
+    override func search(for term: String, page: UInt) -> AnyPublisher<RepositorySearchViewModel.ModelState, Never> {
         let response = try! File.repositories()
         let viewDataObjects = [RepositoryViewData](from: response)
         let state = RepositorySearchViewModel.ModelState.loaded(viewDataObjects)

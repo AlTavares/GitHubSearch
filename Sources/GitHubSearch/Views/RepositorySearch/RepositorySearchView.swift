@@ -24,9 +24,6 @@ struct RepositorySearchView: View {
             .navigationBarTitle(Text(L10n.View.Repository.Search.title),
                                 displayMode: .large)
         }
-        .onTapGesture {
-            self.endEditing()
-        }
     }
 
     var searchBar: some View {
@@ -41,7 +38,7 @@ struct RepositorySearchView: View {
                 .autocapitalization(.allCharacters)
         }
         .padding(8)
-        .background(Color(Asset.mediumGrey.name))
+        .background(Color(.systemGray4))
         .foregroundColor(.white)
         .cornerRadius(10)
     }
@@ -50,14 +47,26 @@ struct RepositorySearchView: View {
         guard items.count > 0 else {
             return emptyView()
         }
-        return List(items) { item in
-            RepositoryCellView(viewData: item)
-                .padding([.bottom, .top])
-        }.asAnyView()
+        return
+            List(items) { item in
+                NavigationLink(destination: ReadmeView(repositoryData: item)) {
+                    RepositoryCellView(viewData: item)
+                        .padding([.bottom, .top])
+                        .onAppear {
+                            self.itemDidAppear(item)
+                        }
+                }
+            }.asAnyView()
     }
 
     func emptyView() -> AnyView {
         EmptyRepositoryView().asAnyView()
+    }
+
+    private func itemDidAppear(_ item: RepositoryViewData) {
+        if viewModel.isLastItem(item) {
+            viewModel.loadMore()
+        }
     }
 }
 
