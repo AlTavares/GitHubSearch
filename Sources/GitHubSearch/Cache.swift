@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 typealias ImageCache = Cache<URL, UIImage>
-typealias RequestCache = Cache<Request, Decodable>
+typealias RequestCache = Cache<Request, Data>
 
 final class Cache<Key: Hashable, Value>: ObservableObject {
     private let wrapped = NSCache<WrappedKey, Entry>()

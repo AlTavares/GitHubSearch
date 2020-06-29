@@ -18,26 +18,33 @@ class HTTPClient {
     @Locatable private var jsonDecoder: JSONDecoder
 
     func perform<T: Decodable>(request: Request) -> AnyPublisher<T, Error> {
+        performData(request: request)
+            .tryMap { [jsonDecoder] data in
+                try jsonDecoder.decode(T.self, from: data)
+            }
+            .eraseToAnyPublisher()
+    }
+
+    func performData(request: Request) -> AnyPublisher<Data, Error> {
         guard let urlRequest = request.asURLRequest() else {
-            return Fail<T, Error>(error: RequestError.unableToCreateRequest)
+            return Fail<Data, Error>(error: RequestError.unableToCreateRequest)
                 .eraseToAnyPublisher()
         }
 
         logger.debug(urlRequest.curlString)
 
-        if let cached = cache[request], let value = cached as? T {
-            return Result.Publisher(value).eraseToAnyPublisher()
+        if let cached = cache[request] {
+            return Result.Publisher(cached).eraseToAnyPublisher()
         }
 
         return urlSession.dataTaskPublisher(for: urlRequest)
             .retry(request.retryCount)
-            .tryMap { [jsonDecoder] data, _ in
-                try jsonDecoder.decode(T.self, from: data)
-            }
-            .handleEvents(receiveOutput: { [cache] output in
-                cache[request] = output
+            .map(\.data)
+            .handleEvents(receiveOutput: { [cache] data in
+                cache[request] = data
             })
             .logErrors()
+            .mapError { $0 as Error }
             .eraseToAnyPublisher()
     }
 }

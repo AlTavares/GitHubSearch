@@ -9,7 +9,7 @@ import Foundation
 import Logging
 
 let logger = configure(Logger(label: Bundle.main.bundleIdentifier!)) {
-    $0.logLevel = .trace
+    $0.logLevel = .debug
 }
 
 extension Logger {
