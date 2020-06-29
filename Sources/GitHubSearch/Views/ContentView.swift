@@ -10,8 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         RepositorySearchView(viewModel: RepositorySearchViewModel())
-        .background(Color(Asset.lightGrey.name))
-        .foregroundColor(Color(Asset.mediumGrey.name))
+            .background(Color(.systemGray6))
+        .foregroundColor(Color(.systemGray4))
     }
 }
 

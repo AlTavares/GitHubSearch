@@ -15,14 +15,14 @@ struct RepositoryCellView: View {
             image
             repositoryInfo
         }
-        .foregroundColor(Color(Asset.mediumGrey.name))
+        .foregroundColor(Color(.systemGray2))
     }
 
     var repositoryInfo: some View {
         VStack(alignment: .leading, spacing: 4) {
             Text(viewData.name.uppercased())
                 .fontWeight(.semibold)
-                .foregroundColor(.black)
+                .foregroundColor(Color(.label))
             Text(viewData.itemDescription.uppercased())
                 .font(.caption)
                 .fontWeight(.medium)
@@ -39,7 +39,7 @@ struct RepositoryCellView: View {
                 .padding(4)
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
-                        .stroke(Color(Asset.mediumGrey.name), lineWidth: 2)
+                        .stroke(Color(.systemGray2), lineWidth: 2)
                 )
         }
     }
@@ -58,10 +58,11 @@ struct RepositoryCellView: View {
     func stat(image: Image, count: Int) -> some View {
         HStack {
             image
+                .renderingMode(.template)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 15, height: 15)
-                .foregroundColor(.black)
+                .foregroundColor(Color(.label))
             Text(String(count))
                 .font(.footnote)
                 .fontWeight(.semibold)

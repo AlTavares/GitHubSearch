@@ -18,7 +18,7 @@ struct EmptyRepositoryView: View {
             Text(L10n.View.Repository.EmptyState.message.uppercased())
                 .font(.caption)
                 .bold()
-        }.foregroundColor(Color(Asset.darkGrey.name))
+        }.foregroundColor(Color(.systemGray2))
     }
 }
 
