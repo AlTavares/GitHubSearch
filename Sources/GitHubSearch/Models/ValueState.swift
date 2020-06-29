@@ -17,4 +17,9 @@ enum ValueState<Value> {
         if case .loading = self { return true }
         return false
     }
+
+    var value: Value? {
+        guard case let .loaded(value) = self else { return nil }
+        return value
+    }
 }

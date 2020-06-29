@@ -15,18 +15,30 @@ class GitHubService {
 
         enum Endpoints {
             static let searchRepositories = "/search/repositories"
+            static func readme(from repository: RepositoryData) -> String {
+                "/repos/\(repository.owner)/\(repository.name)/readme"
+            }
         }
     }
 
     @Locatable private var httpClient: HTTPClient
 
-    // https://api.github.com/search/repositories?q=language:swift&sort=stars&order=desc&page=0&per_page=1000
-
     func search(with parameters: SearchParameters) -> AnyPublisher<ResponseGitHubAPI, Error> {
         let request = Request(host: API.baseURL,
                               path: API.Endpoints.searchRepositories,
-                              queryItems: parameters.queryItems)
+                              queryItems: parameters.queryItems,
+                              headers: API.defaultHeaders)
         return httpClient.perform(request: request)
+            .eraseToAnyPublisher()
+    }
+
+    func loadReadme(from repository: RepositoryData) -> AnyPublisher<String, Error> {
+        let request = Request(host: API.baseURL,
+                              path: API.Endpoints.readme(from: repository),
+                              headers: ["Accept": "application/vnd.github.VERSION.html"])
+        return httpClient.performData(request: request)
+            .map { String(data: $0, encoding: .utf8) }
+            .replaceNil(with: "")
             .eraseToAnyPublisher()
     }
 }

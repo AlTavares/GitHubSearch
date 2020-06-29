@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RepositoryViewData: Identifiable {
+struct RepositoryViewData: Equatable, Identifiable {
     let id: Int
     let name: String
     let itemDescription: String
@@ -33,7 +33,7 @@ extension Array where Element == RepositoryViewData {
     }
 }
 
-struct OwnerViewData {
+struct OwnerViewData: Equatable {
     let userName: String
     let avatarURL: String
 }
