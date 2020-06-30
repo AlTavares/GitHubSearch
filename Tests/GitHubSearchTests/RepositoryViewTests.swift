@@ -12,21 +12,38 @@ import Quick
 import SnapshotTesting
 import SwiftUI
 import XCTest
+
 class RepositoryViewTests: QuickSpec {
+    var bag = CancelBag()
     override func spec() {
         describe("a repository search view") {
             let viewModel = FakeRepositorySearchViewModel()
             let view = RepositorySearchView(viewModel: viewModel)
             it("matches the snapshot on empty state") {
-                assertSnapshot(matching: view, as: .image)
+                assertSnapshot(matching: view, named: "repo.search.idle")
             }
             it("matches the snapshot on loading state") {
                 viewModel.state = .loading
-                assertSnapshot(matching: view, as: .image)
+                assertSnapshot(matching: view, named: "repo.search.loading")
             }
             it("matches the snapshot on loaded state") {
                 viewModel.searchTerm = "SWIFT"
-                assertSnapshot(matching: view, as: .image)
+                assertSnapshot(matching: view, named: "repo.search.loaded")
+            }
+        }
+        describe("a repository cell view") {
+            it("matches the snapshot") {
+                let view = RepositoryCellView(
+                    viewData: RepositoryViewData(id: 1,
+                                                 name: "AlpacaRepo",
+                                                 itemDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan mattis lacinia. Quisque rhoncus laoreet est, et mollis erat varius ultrices. Vestibulum sed sollicitudin nunc.",
+                                                 owner: .init(userName: "Alpaca",
+                                                              avatarURL: "https://avatars1.githubusercontent.com/u/4191215?s=460&u=57e3516be548dea195036405b8b75f8cecca00fe&v=4"),
+                                                 stargazersCount: 12,
+                                                 forksCount: 24)
+                )
+
+                assertSnapshot(matching: view, named: "repo.cell.loaded")
             }
         }
     }
