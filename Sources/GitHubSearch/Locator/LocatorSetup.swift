@@ -19,6 +19,7 @@ extension Locator {
         Locator.register(URLSession.shared)
         Locator.register(HTTPClient())
         Locator.register(GitHubService())
+        Locator.register(ImageLoader())
 
         Locator.register(JSONDecoder.default)
         Locator.register(JSONEncoder.default)

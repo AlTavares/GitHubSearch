@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct URLImageView: View {
-    @ObservedObject private var imageLoader = ImageLoader()
+    @ObservedObject private var imageLoader = Locator.locate(ImageLoader.self)
     var placeholder: AnyView
 
     static let defaultPlaceholder = Image(systemSymbol: .camera)
