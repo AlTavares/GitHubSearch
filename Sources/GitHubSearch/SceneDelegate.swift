@@ -20,6 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         UINavigationBar.appearance().tintColor = UIColor.label
         UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffset(horizontal: -1000.0, vertical: 0.0), for: .default)
 
+        guard !isRunningTests else { return }
+
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
 
