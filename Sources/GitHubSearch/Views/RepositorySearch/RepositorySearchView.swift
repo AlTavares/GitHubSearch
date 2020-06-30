@@ -33,7 +33,8 @@ struct RepositorySearchView: View {
                 .padding(2)
             TextField("", text: Binding(keyPath: \.searchTerm, on: viewModel))
                 .modifier(PlaceholderStyle(showPlaceHolder: viewModel.searchTerm.isEmpty,
-                                           placeholder: Text(L10n.View.Repository.SearchBar.placeholder.uppercased())))
+                                           placeholder: Text(L10n.View.Repository.SearchBar.placeholder))
+                )
                 .font(Font.caption.bold())
                 .autocapitalization(.allCharacters)
         }

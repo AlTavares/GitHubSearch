@@ -3,7 +3,7 @@ output_dir: Sources/GitHubSearch/Resources/Generated/
 strings:
   inputs: Base.lproj
   outputs:
-    templateName: structured-swift5
+    templatePath: SwiftUI.stencil
     output: Strings.swift
 xcassets:
   inputs: 

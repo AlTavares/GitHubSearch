@@ -74,7 +74,7 @@ struct RepositoryCellView_Previews: PreviewProvider {
     static var previews: some View {
         RepositoryCellView(viewData: .init(id: 0,
                                            name: "Repository",
-                                           itemDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan mattis lacinia. Quisque rhoncus laoreet est, et mollis erat varius ultrices. Vestibulum sed sollicitudin nunc. ",
+                                           itemDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan mattis lacinia. Quisque rhoncus laoreet est, et mollis erat varius ultrices. Vestibulum sed sollicitudin nunc.",
                                            owner: .init(userName: "AlTavares",
                                                         avatarURL: "https://avatars1.githubusercontent.com/u/4191215"),
                                            stargazersCount: 10,

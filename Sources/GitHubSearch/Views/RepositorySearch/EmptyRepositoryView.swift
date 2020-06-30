@@ -15,7 +15,7 @@ struct EmptyRepositoryView: View {
                 .resizable()
                 .frame(width: 170, height: 170)
 
-            Text(L10n.View.Repository.EmptyState.message.uppercased())
+            Text(L10n.View.Repository.EmptyState.message)
                 .font(.caption)
                 .bold()
         }.foregroundColor(Color(.systemGray2))

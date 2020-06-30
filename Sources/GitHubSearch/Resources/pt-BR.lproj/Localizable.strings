@@ -6,7 +6,7 @@
   
 */
 
-"view.repository.search.title" = "Repositórios";
-"view.repository.searchBar.placeholder" = "Buscar por linguagem";
+"view.repository.search.title" = "REPOSITÓRIOS";
+"view.repository.searchBar.placeholder" = "BUSCAR POR LINGUAGEM";
 
-"view.repository.emptyState.message" = "Lista de repositórios vazia";
+"view.repository.emptyState.message" = "LISTA DE REPOSITÓRIOS VAZIA";
