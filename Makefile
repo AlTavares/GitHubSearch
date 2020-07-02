@@ -11,5 +11,6 @@ bootstrap:
 	$(eval path = Sources/$(appName)/Models/Generated)
 	rm $(path)/* || true
 	$(quicktype) --src-urls quicktype-urls.json -o $(path)/Models.swift
+	swiftgen
 	xcodegen
 	open $(appName).xcodeproj
