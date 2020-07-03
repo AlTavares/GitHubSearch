@@ -57,9 +57,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.2",
+        "HOMEBREW_VERSION": "2.4.3",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "8f0762ca4f984c92beb27ce5753f6cbbc4fdbff4",
+        "Homebrew/homebrew-core": "79c8c6a1a11ad66021ac6d1b46c4f3c67b67db52",
         "CLT": "1103.0.32.29",
         "Xcode": "11.5",
         "macOS": "10.15.5"
