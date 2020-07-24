@@ -17,8 +17,9 @@ extension Locator {
         logger.debug("Setting up dependencies")
 
         Locator.register(URLSession.shared)
-        Locator.register(HTTPClient())
-        Locator.register(GitHubService())
+        Locator.register(HTTPClient.self, SimpleHTTPClient())
+        Locator.register(GitHubSearchService.self, GitHubService())
+        Locator.register(GitHubReadMeService.self, GitHubService())
         Locator.register(ImageLoader())
 
         Locator.register(JSONDecoder.default)

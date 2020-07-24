@@ -8,7 +8,15 @@
 import Combine
 import Foundation
 
-class GitHubService {
+protocol GitHubSearchService {
+    func search(with parameters: GitHub.SearchParameters) -> AnyPublisher<ResponseGitHubAPI, Error>
+}
+
+protocol GitHubReadMeService {
+    func loadReadme(from repository: RepositoryData) -> AnyPublisher<String, Error>
+}
+
+class GitHubService: GitHubSearchService, GitHubReadMeService {
     private enum API {
         static let baseURL = "https://api.github.com"
         static let defaultHeaders: HTTPHeaders = ["Accept": "application/vnd.github.v3+json"]
@@ -23,7 +31,7 @@ class GitHubService {
 
     @Locatable private var httpClient: HTTPClient
 
-    func search(with parameters: SearchParameters) -> AnyPublisher<ResponseGitHubAPI, Error> {
+    func search(with parameters: GitHub.SearchParameters) -> AnyPublisher<ResponseGitHubAPI, Error> {
         let request = Request(host: API.baseURL,
                               path: API.Endpoints.searchRepositories,
                               queryItems: parameters.queryItems,

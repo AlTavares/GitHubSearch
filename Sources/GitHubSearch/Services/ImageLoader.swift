@@ -18,6 +18,7 @@ class ImageLoader: ObservableObject {
 
     @Published var state: ValueState<UIImage> = .idle
     @Locatable private var cache: ImageCache
+    @Locatable private var urlSession: URLSession
     private var task: AnyCancellable?
 
     func loadImage(from url: URLConvertible) {
@@ -29,7 +30,7 @@ class ImageLoader: ObservableObject {
         if let image = cache[url] {
             state = .loaded(image)
         }
-        task = URLSession.shared.dataTaskPublisher(for: url)
+        task = urlSession.dataTaskPublisher(for: url)
             .tryMap { data, _ in
                 try UIImage(data: data).unwrap()
             }

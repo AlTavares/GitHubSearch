@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension GitHubService {
+enum GitHub {
     struct SearchParameters: Encodable {
         var term: SearchTerm
         var page: UInt = 0

@@ -15,6 +15,7 @@ struct RepositoryCellView: View {
             image
             repositoryInfo
         }
+        .background(Color(.systemBackground))
         .foregroundColor(Color(.systemGray2))
     }
 

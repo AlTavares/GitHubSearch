@@ -15,7 +15,7 @@ class RepositorySearchViewModel: ObservableObject {
     }
 
     private var bag = CancelBag()
-    @Locatable private var service: GitHubService
+    @Locatable private var service: GitHubSearchService
 
     typealias ModelState = ValueState<[RepositoryViewData]>
     @Published var state: ModelState = .idle
@@ -56,7 +56,7 @@ class RepositorySearchViewModel: ObservableObject {
     }
 
     func search(for term: String, page: UInt) -> AnyPublisher<ModelState, Never> {
-        let search = GitHubService.SearchParameters(
+        let search = GitHub.SearchParameters(
             term: .language(term.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)),
             page: page,
             itemsPerPage: Constants.itemsPerPage

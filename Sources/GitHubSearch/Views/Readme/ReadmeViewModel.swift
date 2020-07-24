@@ -15,7 +15,7 @@ class ReadmeViewModel: ObservableObject {
     }
 
     private var bag = CancelBag()
-    @Locatable private var service: GitHubService
+    @Locatable private var service: GitHubReadMeService
 
     typealias ModelState = ValueState<String>
     @Published var state: ModelState = .idle

@@ -8,7 +8,12 @@
 import Combine
 import Foundation
 
-class HTTPClient {
+protocol HTTPClient {
+    func perform<T: Decodable>(request: Request) -> AnyPublisher<T, Error>
+    func performData(request: Request) -> AnyPublisher<Data, Error>
+}
+
+class SimpleHTTPClient: HTTPClient {
     enum RequestError: Swift.Error {
         case unableToCreateRequest
     }
