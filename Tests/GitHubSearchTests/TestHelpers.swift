@@ -25,16 +25,24 @@ func assertSnapshot<Value: View>(matching view: Value,
         "en_US",
     ]
 
+    let colorSchemes: [ColorScheme] = [
+        .light,
+        .dark,
+    ]
     localeIDs.forEach { localeID in
-        let view = view.environment(\.locale, Locale(identifier: localeID))
-        let viewController = UIHostingController(rootView: view)
-        assertSnapshot(matching: viewController,
-                       as: .image(on: .iPhoneXr),
-                       named: "\(name)-\(localeID)",
-                       record: recording,
-                       timeout: timeout,
-                       file: file,
-                       testName: testName,
-                       line: line)
+        colorSchemes.forEach { colorScheme in
+
+            let view = view.environment(\.locale, Locale(identifier: localeID))
+                .environment(\.colorScheme, colorScheme)
+            let viewController = UIHostingController(rootView: view)
+            assertSnapshot(matching: viewController,
+                           as: .image(on: .iPhoneXr, precision: 0.99),
+                           named: "\(name)-\(localeID)-\(colorScheme)",
+                           record: recording,
+                           timeout: timeout,
+                           file: file,
+                           testName: testName,
+                           line: line)
+        }
     }
 }

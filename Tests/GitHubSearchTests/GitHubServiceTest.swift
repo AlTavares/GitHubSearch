@@ -16,7 +16,7 @@ class GitHubServiceTest: QuickSpec {
         describe("a GitHub service") {
             context("when searching") {
                 it("should create the search queries correctly") {
-                    let parameters: [GitHubService.SearchParameters] = [
+                    let parameters: [GitHub.SearchParameters] = [
                         .init(term: .language("someLanguage")),
                         .init(term: .language("stuff"),
                               page: 10,
